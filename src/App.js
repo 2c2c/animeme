@@ -27,8 +27,6 @@ class App extends Component {
         return res.json();
       })
       .then(data => {
-        console.log(data);
-
         this.setState({
           usernameInput: "",
           invalidUser: false,
@@ -36,8 +34,6 @@ class App extends Component {
         });
       })
       .catch(err => {
-        console.log(err);
-
         this.setState({
           usernameInput: "",
           invalidUser: true,

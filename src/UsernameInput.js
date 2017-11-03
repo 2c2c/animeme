@@ -4,7 +4,7 @@ import "semantic-ui-css/semantic.min.css";
 
 export default class Site extends React.Component {
   render() {
-    const {username, handleChange, handleSubmit} = this.props;
+    const { username, handleChange, handleSubmit } = this.props;
     return (
       <Grid style={{ marginTop: "10px", marginBottom: "50px" }}>
         <Grid.Row centered>
